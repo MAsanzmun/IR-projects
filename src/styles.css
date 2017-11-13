@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+#column {
+    border: rgb(185, 182, 182) solid 0.5px;
+    font-size: 20px;
+    margin: 2px;
+    text-align: center;
+}
+
+.id-project {
+    text-align: left;
+    font: bold;
+    border: solid rgb(214, 217, 218) 0.3px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.card-block {
+    margin: 1px;
+}
+
+.card {
+    margin: 5px;
+    background-color: rgb(214, 217, 218);
+}
+
+.card-text {
+    text-align: left;
+    background-color: rgb(214, 217, 218);
+}
+
+#description-project {
+    font-size: 12px;
+}
+
+#workflowstate-project {
+    font-size: 15px;
+    text-align: right;
+    color: white;
+    font: bold;
+}
