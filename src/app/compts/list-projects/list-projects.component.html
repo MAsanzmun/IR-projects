@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col" id="column" *ngFor="let workflowstate of workflowstates">
+            {{workflowstate.id}}
+            <div class="row" *ngFor="let project of projects ">
+                <div class="card" style="width: 100% " *ngIf="project.workflowstate==workflowstate.id ">
+                    <div class="card-block">
+                        <div class="id-project"><a href="">[{{project.id}}]</a> {{project.name}}</div>
+                        <div class="card-text">
+                            <p class="card-text" id="description-project">
+                                {{project.desc}}</p>
+                            <p class="card-text" id="workflowstate-project">{{project.workflowstate}}</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
